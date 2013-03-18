@@ -11,3 +11,9 @@ Makefile.in
 /depcomp
 /install-sh
 /missing
+/bin-debug
+
+.DS_Store
+.actionScriptProperties
+.project
+.settings
