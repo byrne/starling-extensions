@@ -1,4 +1,4 @@
-package com.krechagames.demos 
+package  
 {
 	import flash.ui.Keyboard;
 	import flash.utils.getTimer;
@@ -18,9 +18,9 @@ package com.krechagames.demos
 	 */
 	public class ScrollCar extends Sprite
 	{
-		[Embed(source="../../../../lib/textures/car.png")]
+		[Embed(source="/textures/car.png")]
 		public var Atlas:Class;
-		[Embed(source="../../../../lib/textures/car.xml", mimeType="application/octet-stream")]
+		[Embed(source="/textures/car.xml", mimeType="application/octet-stream")]
 		public var AtlasXml:Class;
 		
 		private var ground:ScrollImage;

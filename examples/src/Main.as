@@ -1,6 +1,5 @@
-package
+package 
 {
-	import com.krechagames.demos.ScrollCar;
 	
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
@@ -30,6 +29,7 @@ package
 			
 			Starling.multitouchEnabled = true; // useful on mobile devices
 			Starling.handleLostContext = true; // deactivate on mobile devices (to save memory)
+//			_starling = new Starling(ScrollCar, this.stage)
 			_starling = new Starling(ScrollCar, this.stage)
 			_starling.simulateMultitouch = true;
 			_starling.enableErrorChecking = Capabilities.isDebugger;

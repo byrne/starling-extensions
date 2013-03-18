@@ -1,4 +1,4 @@
-package com.krechagames.demos 
+package  
 {
 	import flash.utils.getTimer;
 	import starling.display.BlendMode;
@@ -15,9 +15,9 @@ package com.krechagames.demos
 	 */
 	public class ScrollExamples extends Sprite
 	{
-		[Embed(source="../../../../lib/textures/examples.png")]
+		[Embed(source="/textures/examples.png")]
 		public var Atlas:Class;
-		[Embed(source="../../../../lib/textures/examples.xml", mimeType="application/octet-stream")]
+		[Embed(source="/textures/examples.xml", mimeType="application/octet-stream")]
 		public var AtlasXml:Class;
 		
 		
